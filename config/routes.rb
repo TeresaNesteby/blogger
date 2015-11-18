@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :posts do
     resources :comments
   end
@@ -6,6 +7,7 @@ Rails.application.routes.draw do
 
   #makes it so you are not going to pages/about but just /about
   get '/about', to: 'pages#about'
+
 
 
   ##########################################################################
