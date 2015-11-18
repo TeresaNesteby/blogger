@@ -4,13 +4,17 @@ class PostsController < ApplicationController
   end
 
   def new
+    @post = Post.new
   end
 
   def create
     @post = Post.new(post_params)
-    @post.save
-
-    redirect_to @post
+    if @post.save
+      redirect_to @post
+    else
+      #render posts/new- render does not lose content like in a redirect (doesn't refresh)
+      render 'new'
+    end
   end
 
   def show
