@@ -36,9 +36,9 @@ a {
   left: 0;
   top: 0;
   height: 100%;
-  background: #f5f7f9;
+  background: #080B33;
   padding: 7em 0 0 0;
-  border-right: 1px solid #d6dce0;
+
   #logo {
     width: 40px;
     position: absolute;
@@ -53,7 +53,7 @@ a {
       font-weight: 700;
       font-size: 0.7em;
       text-transform: uppercase;
-      color: #33acb7;
+      color: #00A02B;
     }
     li {
       padding: .5em 0;
@@ -62,13 +62,13 @@ a {
         text-decoration: none;
         transition: all .4s ease;
         &:hover {
-          color: #33acb7;
+          color: #00A02B;
         }
       }
     }
     .active {
       a {
-        color: #33acb7;
+        color: #00A02B;
       }
     }
   }
@@ -88,10 +88,10 @@ a {
   padding: .5em 1.5em;
   border-radius: 1.5em;
   &:hover {
-    border: 1px solid #33acb7;
-    color: #33acb7;
+    border: 1px solid #00A02B;
+    color: #00A02B;
     a {
-      color: #33acb7 !important;
+      color: #00A02B !important;
     }
   }
 }
@@ -108,8 +108,8 @@ a {
   margin-left: 250px;
   #header {
     padding: 1em 3em;
-    border-bottom: 1px solid #d6dce0;
-    background: #f5f7f9;
+
+    background: #080B33;
     color: #9eafba;
     p {
       display: inline;
@@ -138,7 +138,7 @@ a {
         color: #2a2f35;
         font-size: 1.5em;
         &:hover {
-          color: #33acb7;
+          color: #00A02B;
         }
       }
     }
@@ -227,7 +227,7 @@ a {
         line-height: 1.75;
       }
       a {
-        color: #33acb7;
+        color: #00A02B;
         font-weight: 700;
         text-decoration: none;
       }
@@ -259,8 +259,8 @@ a {
     border-radius: 1.5em;
     margin-left: .5em;
     &:hover {
-      border: 1px solid #33acb7;
-      color: #33acb7;
+      border: 1px solid #00A02B;
+      color: #00A02B;
     }
   }
 }
